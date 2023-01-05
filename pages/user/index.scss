@@ -1,0 +1,27 @@
+page {
+  background-color: #eee;
+}
+
+.user-item {
+  width: 100%;
+  height: 80rpx;
+  background: #fff;
+  padding: 0 24rpx;
+  position: relative;
+  // margin-top: 100rpx;
+  line-height: 80rpx;
+  &.border::after {
+    content: "";
+    display: block;
+    width: calc(100% - 24rpx);
+    height: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.mt {
+  margin-top: 50rpx;
+}

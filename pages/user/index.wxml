@@ -1,0 +1,12 @@
+<view class="user-warp">
+
+  <view class="user-item border mt" bindtap="clickItem" data-page="agreement">
+    <view class="user-item-left">协议</view>
+    <view class="user-item-right"></view>
+  </view>
+
+  <view class="user-item" bindtap="clickItem" data-page="updateLogs">
+    <view class="user-item-left">更新记录</view>
+    <view class="user-item-right"></view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+{
+  "entryPagePath": "pages/map/index",
+  "pages":[
+    "pages/map/index",
+    "pages/user/index",
+    "pages/updateLogs/index",
+    "pages/agreement/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

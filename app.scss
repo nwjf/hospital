@@ -1,0 +1,20 @@
+view, rich-text, swiper, icon, text,
+progress, button, form, input, checkbox,
+radio, picker, slider, switch, textarea,
+label, navigator, audio, image, video,
+camera, map, scroll-view, picker-view,
+canvas, movable-area, movable-view,
+cover-view, cover-image,
+functional-page-navigator,
+live-player, live-pusher {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-overflow {
+  word-break: keep-all; // 不换行
+  white-space: nowrap; // 不换行
+  text-overflow: ellipsis; // 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。
+  overflow: hidden;
+}
