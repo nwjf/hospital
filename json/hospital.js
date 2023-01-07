@@ -7,7 +7,7 @@ module.exports = [
     originalName: '', // 原名
     subName: "北京协和",
     keywords: "协和,医院",
-    type: "综合",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -27,7 +27,7 @@ module.exports = [
     originalName: '', // 原名
     subName: "",
     keywords: "同仁医院",
-    type: "综合",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -46,8 +46,8 @@ module.exports = [
     fullName: "首都医科大学北京宣武医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "宣武",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -66,8 +66,8 @@ module.exports = [
     fullName: "首都医科大学北京友谊医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -86,8 +86,8 @@ module.exports = [
     fullName: "北京大学第一医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -106,8 +106,8 @@ module.exports = [
     fullName: "北京大学人民医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -126,8 +126,8 @@ module.exports = [
     fullName: "北京大学第三医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -146,8 +146,8 @@ module.exports = [
     fullName: "北京积水潭医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -166,8 +166,8 @@ module.exports = [
     fullName: "中国中医科学院北京广安门医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -186,8 +186,8 @@ module.exports = [
     fullName: "首都医科大学附属北京朝阳医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -206,8 +206,8 @@ module.exports = [
     fullName: "中日友好医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -226,8 +226,8 @@ module.exports = [
     fullName: "北京大学首钢医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级合格",
@@ -246,8 +246,8 @@ module.exports = [
     fullName: "首都医科大学附属北京中医医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -266,8 +266,8 @@ module.exports = [
     fullName: "首都医科大学附属北京天坛医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -286,8 +286,8 @@ module.exports = [
     fullName: "北京世纪坛医院", // 全称
     originalName: '北京铁路总医院', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -306,8 +306,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -326,8 +326,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -346,8 +346,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -366,8 +366,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
@@ -386,8 +386,8 @@ module.exports = [
     fullName: "首都医科大学附属北京安贞医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -406,8 +406,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -426,8 +426,8 @@ module.exports = [
     fullName: "国家电网公司北京电力医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -446,8 +446,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -466,8 +466,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级综合医院",
@@ -486,8 +486,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -506,8 +506,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -526,8 +526,8 @@ module.exports = [
   //   fullName: "", // 全称
   //   originalName: '', // 原名
   //   subName: "",
-  //   keywords: "同仁医院",
-  //   type: "综合",
+  //   keywords: "",
+  //   type: "",
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -546,8 +546,8 @@ module.exports = [
   //   fullName: "", // 全称
   //   originalName: '', // 原名
   //   subName: "",
-  //   keywords: "同仁医院",
-  //   type: "综合",
+  //   keywords: "",
+  //   type: "",
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -566,8 +566,8 @@ module.exports = [
   //   fullName: "", // 全称
   //   originalName: '', // 原名
   //   subName: "",
-  //   keywords: "同仁医院",
-  //   type: "综合",
+  //   keywords: "",
+  //   type: "",
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -586,8 +586,8 @@ module.exports = [
   //   fullName: "", // 全称
   //   originalName: '', // 原名
   //   subName: "",
-  //   keywords: "同仁医院",
-  //   type: "综合",
+  //   keywords: "",
+  //   type: "",
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -606,8 +606,8 @@ module.exports = [
   //   fullName: "", // 全称
   //   originalName: '', // 原名
   //   subName: "",
-  //   keywords: "同仁医院",
-  //   type: "综合",
+  //   keywords: "",
+  //   type: "",
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -626,8 +626,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -646,8 +646,8 @@ module.exports = [
     fullName: "北京医院科学院阜外医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -666,8 +666,8 @@ module.exports = [
     fullName: "中国中医科学院西苑医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -686,8 +686,8 @@ module.exports = [
     fullName: "首都医科大学附属复兴医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -706,8 +706,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -726,8 +726,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -746,8 +746,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等综合医院",
@@ -766,8 +766,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -786,8 +786,8 @@ module.exports = [
     fullName: "首都医科大学附属北京佑安医院", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -806,8 +806,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
@@ -826,8 +826,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -846,8 +846,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -866,8 +866,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
@@ -886,8 +886,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "",
     gradeName: "三级合格",
@@ -906,8 +906,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
@@ -926,8 +926,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
@@ -946,8 +946,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
@@ -966,8 +966,8 @@ module.exports = [
     fullName: "", // 全称
     originalName: '', // 原名
     subName: "",
-    keywords: "同仁医院",
-    type: "综合",
+    keywords: "",
+    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
