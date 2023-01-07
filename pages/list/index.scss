@@ -1,0 +1,39 @@
+page {
+  background-color: #eee;
+}
+
+.list-warp {
+  padding-top: 20rpx;
+
+  .list-item {
+    background: #fff;
+    width: 100%;
+    height: 120rpx;
+    margin-bottom: 2rpx;
+    padding: 10rpx;
+    display: flex;
+    align-items: center;
+    .item-pic {
+      width: 100rpx;
+      height: 100rpx;
+      border-radius: 50%;
+      overflow: hidden;
+      image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .item-right {
+      width: calc(100% - 100rpx - 20rpx);
+      margin-left: 20rpx;
+      .item-name {
+        font-size: 28rpx;
+      }
+      .item-msg {
+        font-size: 24rpx;
+        margin-top: 10rpx;
+        color: #999;
+      }
+    }
+  }
+}

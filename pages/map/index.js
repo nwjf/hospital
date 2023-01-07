@@ -13,6 +13,15 @@ Page({
   },
   onLoad() {
     this.getMarkers(hospital);
+    // wx.getLocation({
+    //   type: 'gcj02',
+    //   success: (res) => {
+    //     console.log('res', res);
+    //   },
+    //   fail: (e) => {
+    //     console.log('e', e);
+    //   }
+    // });
   },
   toPage(event) {
     const { page } = event.currentTarget.dataset;

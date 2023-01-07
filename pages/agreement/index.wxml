@@ -1,3 +1,6 @@
-<view>
-  小程序目前不收集用户任何信息
+<view class="agreement-warp">
+  <!-- <view class="title">用户协议</view> -->
+  <view class="text">
+    1. 目前小程序不收集用户任何数据
+  </view>
 </view>
