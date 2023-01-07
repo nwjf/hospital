@@ -38,7 +38,7 @@
         height: 100%;
       }
     }
-    .hospital-right {
+    .hospital-content {
       width: calc(100% - 100rpx - 20rpx);
       margin-left: 20rpx;
       flex: 1;
@@ -49,6 +49,10 @@
     .hospital-msg {
       font-size: 24rpx;
       color: #ccc;
+    }
+
+    .hospital-right {
+
     }
   }
 }

@@ -4,7 +4,7 @@
     longitude="{{longitude}}"
     latitude="{{latitude}}"
     markers="{{markers}}"
-    scale="{{10}}"
+    scale="{{12}}"
     bindmarkertap="markerTap" ></map>
 
   <view class="right-panel">
@@ -20,11 +20,12 @@
         <view class="hospital-icon">
           <image src="{{hospitalInfo.icon || 'https://img.rednet.cn/2020/05-12/afd05e5e-806b-4ee2-8fba-264f39211dd3.jpg'}}"></image>
         </view>
-        <view class="hospital-right">
+        <view class="hospital-content">
           <view class="hospital-name text-overflow">{{hospitalInfo.fullName || hospitalInfo.name}}</view>
           <view class="hospital-msg">北京医保定点三级医院</view>
           <!-- <view class="hospital-msg">{{hospitalInfo.gradeName}}</view> -->
         </view>
+        <view class="hospital-right"></view>
       </view>
       <view class="hospital-desc"></view>
     </view>

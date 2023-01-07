@@ -4,6 +4,7 @@ Page({
   data: {
     longitude: 116.40,
     latitude: 39.91,
+    userMarkers: {},
     markers: [], // 标注
 
     bottomContainerConfig: {
@@ -12,16 +13,32 @@ Page({
     hospitalInfo: {},
   },
   onLoad() {
-    this.getMarkers(hospital);
-    // wx.getLocation({
-    //   type: 'gcj02',
-    //   success: (res) => {
-    //     console.log('res', res);
-    //   },
-    //   fail: (e) => {
-    //     console.log('e', e);
-    //   }
-    // });
+    // this.getMarkers(hospital);
+    wx.getLocation({
+      type: 'gcj02',
+      success: (res) => {
+        console.log('res', res);
+        const { longitude, latitude } = res;
+        this.setData({
+          longitude,
+          latitude,
+          userMarkers: {
+            id: 99999,
+            iconPath: '../../assets/marker-black.png',
+            width: 30,
+            height: 30,
+            longitude,
+            latitude,
+          }
+        });
+      },
+      fail: (e) => {
+        console.log('e', e);
+      },
+      complete: () => {
+        this.getMarkers(hospital);
+      }
+    });
   },
   toPage(event) {
     const { page } = event.currentTarget.dataset;
@@ -43,19 +60,21 @@ Page({
       };
     });
     this.setData({
-      markers,
+      markers: [this.data.userMarkers, ...markers],
     });
   },
 
   markerTap(markerData) {
     const { markerId } = markerData;
     const data = this.data.markers.find(item => item.id === markerId).data;
-    this.setData({
-      bottomContainerConfig: {
-        ...this.data.bottomContainerConfig,
-        show: true,
-      },
-      hospitalInfo: data,
-    });
+    if (data) {
+      this.setData({
+        bottomContainerConfig: {
+          ...this.data.bottomContainerConfig,
+          show: true,
+        },
+        hospitalInfo: data,
+      });
+    }
   },
 });

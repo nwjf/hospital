@@ -1,5 +1,11 @@
 <view class="logs-warp">
   <view class="logs-item">
+    <view class="logs-item-title">v1.0.2 2023-1-7</view>
+    <view class="logs-item-content">
+      <text>增加用户定位服务</text>
+    </view>
+  </view>
+  <view class="logs-item">
     <view class="logs-item-title">v1.0.1 2023-1-6</view>
     <view class="logs-item-content">
       <text>新增医院列表页面\n增加医院封面</text>
