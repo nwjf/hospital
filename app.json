@@ -1,8 +1,8 @@
 {
-  "entryPagePath": "pages/map/index",
+  "entryPagePath": "pages/user/index",
   "pages":[
-    "pages/map/index",
     "pages/user/index",
+    "pages/map/index",
     "pages/list/index",
     "pages/updateLogs/index",
     "pages/agreement/index"

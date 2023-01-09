@@ -11,6 +11,15 @@ live-player, live-pusher {
   padding: 0;
   box-sizing: border-box;
 }
+button::after {
+  border: none;
+  transform: scale(1);
+  left: auto;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  border-radius: 0;
+}
 
 .text-overflow {
   word-break: keep-all; // 不换行

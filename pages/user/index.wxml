@@ -1,18 +1,37 @@
 <view class="user-warp">
 
-  <view class="user-item border mt" bindtap="clickItem" data-page="list">
+  <view class="user-banner">
+    <image class="img1" src="../../assets/user-bg.png" mode="widthFix"></image>
+    <image class="img2" src="../../assets/user-banner.png" mode="widthFix"></image>
+    <view class="text">寻医问院</view>
+  </view>
+
+  <view class="user-item border mt" bindtap="clickItem" data-page="map">
+    <view class="user-item-left">地图查看医院</view>
+    <view class="user-item-right"></view>
+  </view>
+
+  <view class="user-item border" bindtap="clickItem" data-page="list">
     <view class="user-item-left">医院列表</view>
     <view class="user-item-right"></view>
   </view>
 
-  <view class="user-item border" bindtap="clickItem" data-page="agreement">
+  <view class="user-item border mt" bindtap="clickItem" data-page="agreement">
     <view class="user-item-left">协议</view>
     <view class="user-item-right"></view>
   </view>
 
-  <view class="user-item" bindtap="clickItem" data-page="updateLogs">
+  <view class="user-item border" bindtap="clickItem" data-page="updateLogs">
     <view class="user-item-left">更新记录</view>
     <view class="user-item-right"></view>
   </view>
+
+  <button open-type="contact" class="user-item border">
+    <view class="user-item-left">人工客服</view>
+  </button>
+
+  <button open-type="feedback" class="user-item">
+    <view class="user-item-left">意见反馈</view>
+  </button>
   
 </view>
