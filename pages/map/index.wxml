@@ -8,7 +8,7 @@
     bindmarkertap="markerTap" ></map>
 
   <view class="right-panel">
-    <view class="right-panel-item" bindtap="toPage" data-page="user">个人<br/>中心</view>
+    <!-- <view class="right-panel-item" bindtap="toPage" data-page="user">个人<br/>中心</view> -->
   </view>
 
   <page-container

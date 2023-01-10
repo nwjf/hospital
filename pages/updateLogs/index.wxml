@@ -1,6 +1,14 @@
 <view class="logs-warp">
 
   <view class="logs-item">
+    <view class="logs-item-title">v1.1.1 2023-1-9</view>
+    <view class="logs-item-content">
+      <view>1. 暂停人工客服</view>
+      <view>2. 修改地图页面返回问题</view>
+    </view>
+  </view>
+
+  <view class="logs-item">
     <view class="logs-item-title">v1.1.0 2023-1-9</view>
     <view class="logs-item-content">
       <view>1. 新增意见反馈</view>

@@ -26,9 +26,9 @@
     <view class="user-item-right"></view>
   </view>
 
-  <button open-type="contact" class="user-item border">
+  <!-- <button open-type="contact" class="user-item border">
     <view class="user-item-left">人工客服</view>
-  </button>
+  </button> -->
 
   <button open-type="feedback" class="user-item">
     <view class="user-item-left">意见反馈</view>
