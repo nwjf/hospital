@@ -22,12 +22,16 @@
         </view>
         <view class="hospital-content">
           <view class="hospital-name text-overflow">{{hospitalInfo.fullName || hospitalInfo.name}}</view>
-          <view class="hospital-msg">北京医保定点三级医院</view>
+          <view class="hospital-tag">
+            <view>医保定点</view>
+            <view>{{hospitalInfo.gradeName}}</view>
+          </view>
+          <!-- <view class="hospital-msg">北京医保定点三级医院</view> -->
           <!-- <view class="hospital-msg">{{hospitalInfo.gradeName}}</view> -->
         </view>
-        <view class="hospital-right">
+        <!-- <view class="hospital-right">
           <button open-type="launchApp"></button>
-        </view>
+        </view> -->
       </view>
       <view class="hospital-desc"></view>
     </view>

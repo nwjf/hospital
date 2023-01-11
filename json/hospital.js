@@ -5,19 +5,16 @@ module.exports = [
     name: "北京协和医院", // 简称，名称
     fullName: "中国医学科学院北京协和医院", // 全称
     originalName: '', // 原名
-    subName: "北京协和",
-    keywords: "协和,医院",
-    type: "",
-    grade: "A",
-    class: "A",
+    grade: "A", // 级别-等级
+    class: "A", // 级别
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.415911,
-    latitude: 39.912392
+    latitude: 39.912392,
+    // province: "北京市",
+    // city: "北京市",
+    // county: "",
+    // address: "",
+    // description: "",
   },
   {
     id: "bj002",
@@ -25,19 +22,11 @@ module.exports = [
     name: "北京同仁医院", // 简称，名称
     fullName: "北京医科大学附属北京同仁医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "同仁医院",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.417683,
-    latitude: 39.902663
+    latitude: 39.902663,
   },
   {
     id: "bj003",
@@ -45,19 +34,11 @@ module.exports = [
     name: "北京宣武医院", // 简称，名称
     fullName: "首都医科大学北京宣武医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "宣武",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.362483,
-    latitude: 39.892118
+    latitude: 39.892118,
   },
   {
     id: "bj004",
@@ -65,19 +46,11 @@ module.exports = [
     name: "北京友谊医院", // 简称，名称
     fullName: "首都医科大学北京友谊医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.393947,
-    latitude: 39.885592
+    latitude: 39.885592,
   },
   {
     id: "bj005",
@@ -85,19 +58,11 @@ module.exports = [
     name: "北京大学第一医院", // 简称，名称
     fullName: "北京大学第一医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.380771,
-    latitude: 39.932119
+    latitude: 39.932119,
   },
   {
     id: "bj006",
@@ -105,19 +70,11 @@ module.exports = [
     name: "北京大学人民医院", // 简称，名称
     fullName: "北京大学人民医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.353183,
-    latitude: 39.936635
+    latitude: 39.936635,
   },
   {
     id: "bj007",
@@ -125,19 +82,11 @@ module.exports = [
     name: "北京大学第三医院", // 简称，名称
     fullName: "北京大学第三医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.360022,
-    latitude: 39.982695
+    latitude: 39.982695,
   },
   {
     id: "bj008",
@@ -145,19 +94,11 @@ module.exports = [
     name: "北京积水潭医院", // 简称，名称
     fullName: "北京积水潭医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.374657,
-    latitude: 39.943986
+    latitude: 39.943986,
   },
   {
     id: "bj009",
@@ -165,19 +106,11 @@ module.exports = [
     name: "北京广安门医院", // 简称，名称
     fullName: "中国中医科学院北京广安门医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.352507,
-    latitude: 39.890942
+    latitude: 39.890942,
   },
   {
     id: "bj010",
@@ -185,19 +118,11 @@ module.exports = [
     name: "北京朝阳医院", // 简称，名称
     fullName: "首都医科大学附属北京朝阳医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.454220,
-    latitude: 39.925360
+    latitude: 39.925360,
   },
   {
     id: "bj011",
@@ -205,19 +130,11 @@ module.exports = [
     name: "中日友好医院", // 简称，名称
     fullName: "中日友好医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.426894,
-    latitude: 39.974096
+    latitude: 39.974096,
   },
   {
     id: "bj012",
@@ -225,19 +142,11 @@ module.exports = [
     name: "北京大学首钢医院", // 简称，名称
     fullName: "北京大学首钢医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级合格",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.203601,
-    latitude: 39.928990
+    latitude: 39.928990,
   },
   {
     id: "bj013",
@@ -245,19 +154,11 @@ module.exports = [
     name: "北京中医医院", // 简称，名称
     fullName: "首都医科大学附属北京中医医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.407883,
-    latitude: 39.932297
+    latitude: 39.932297,
   },
   {
     id: "bj014",
@@ -265,19 +166,11 @@ module.exports = [
     name: "北京天坛医院", // 简称，名称
     fullName: "首都医科大学附属北京天坛医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.315102,
-    latitude: 39.834652
+    latitude: 39.834652,
   },
   {
     id: "bj015",
@@ -285,19 +178,11 @@ module.exports = [
     name: "北京世纪坛医院", // 简称，名称
     fullName: "北京世纪坛医院", // 全称
     originalName: '北京铁路总医院', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.318653,
-    latitude: 39.899368
+    latitude: 39.899368,
   },
   {
     id: "bj016",
@@ -305,19 +190,11 @@ module.exports = [
     name: "北京健宫医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.375718,
-    latitude: 39.880843
+    latitude: 39.880843,
   },
   {
     id: "bj017",
@@ -325,19 +202,11 @@ module.exports = [
     name: "北京房山区良乡医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.139501,
-    latitude: 39.723665
+    latitude: 39.723665,
   },
   {
     id: "bj018",
@@ -345,19 +214,11 @@ module.exports = [
     name: "北京大兴区人民医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.322119,
-    latitude: 39.510938
+    latitude: 39.510938,
   },
   {
     id: "bj019",
@@ -365,19 +226,11 @@ module.exports = [
     name: "北京石景山医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.213594,
-    latitude: 39.906250
+    latitude: 39.906250,
   },
   {
     id: "bj020",
@@ -385,19 +238,11 @@ module.exports = [
     name: "北京安贞医院", // 简称，名称
     fullName: "首都医科大学附属北京安贞医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.403426,
-    latitude: 39.973481
+    latitude: 39.973481,
   },
   {
     id: "bj021",
@@ -405,19 +250,11 @@ module.exports = [
     name: "北京潞河医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.659014,
-    latitude: 39.901166
+    latitude: 39.901166,
   },
   {
     id: "bj022",
@@ -425,19 +262,11 @@ module.exports = [
     name: "北京电力医院", // 简称，名称
     fullName: "国家电网公司北京电力医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.315666,
-    latitude: 39.885679
+    latitude: 39.885679,
   },
   {
     id: "bj023",
@@ -445,19 +274,11 @@ module.exports = [
     name: "航空总医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.419938,
-    latitude: 40.028938
+    latitude: 40.028938,
   },
   {
     id: "bj024",
@@ -465,19 +286,11 @@ module.exports = [
     name: "北京海淀医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级综合医院",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.315219,
-    latitude: 39.976887
+    latitude: 39.976887,
   },
   {
     id: "bj025",
@@ -485,19 +298,11 @@ module.exports = [
     name: "北京垂杨柳医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.459718,
-    latitude: 39.886834
+    latitude: 39.886834,
   },
   {
     id: "bj026",
@@ -505,19 +310,11 @@ module.exports = [
     name: "北京昌平区医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.231931,
-    latitude: 40.226919
+    latitude: 40.226919,
   },
   // {
   //   id: "bj027",
@@ -525,9 +322,7 @@ module.exports = [
   //   name: "北京顺义区医院", // 简称，名称
   //   fullName: "", // 全称
   //   originalName: '', // 原名
-  //   subName: "",
-  //   keywords: "",
-  //   type: "",
+  //
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -545,9 +340,7 @@ module.exports = [
   //   name: "北京平谷区医院", // 简称，名称
   //   fullName: "", // 全称
   //   originalName: '', // 原名
-  //   subName: "",
-  //   keywords: "",
-  //   type: "",
+  //
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -565,9 +358,9 @@ module.exports = [
   //   name: "北京密云区医院", // 简称，名称
   //   fullName: "", // 全称
   //   originalName: '', // 原名
-  //   subName: "",
-  //   keywords: "",
-  //   type: "",
+  //
+  //
+  //
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -585,9 +378,9 @@ module.exports = [
   //   name: "北京延庆区医院", // 简称，名称
   //   fullName: "", // 全称
   //   originalName: '', // 原名
-  //   subName: "",
-  //   keywords: "",
-  //   type: "",
+  //
+  //
+  //
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -605,9 +398,9 @@ module.exports = [
   //   name: "北京怀柔医院", // 简称，名称
   //   fullName: "", // 全称
   //   originalName: '', // 原名
-  //   subName: "",
-  //   keywords: "",
-  //   type: "",
+  //
+  //
+  //
   //   grade: "A",
   //   class: "A",
   //   gradeName: "三级甲等",
@@ -625,19 +418,11 @@ module.exports = [
     name: "北京清华长庚医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.415072,
-    latitude: 40.072935
+    latitude: 40.072935,
   },
   {
     id: "bj033",
@@ -645,19 +430,11 @@ module.exports = [
     name: "阜外医院", // 简称，名称
     fullName: "北京医院科学院阜外医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.351713,
-    latitude: 39.925034
+    latitude: 39.925034,
   },
   {
     id: "bj034",
@@ -665,19 +442,11 @@ module.exports = [
     name: "西苑医院", // 简称，名称
     fullName: "中国中医科学院西苑医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.293650,
-    latitude: 39.995190
+    latitude: 39.995190,
   },
   {
     id: "bj035",
@@ -685,19 +454,11 @@ module.exports = [
     name: "复兴医院", // 简称，名称
     fullName: "首都医科大学附属复兴医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.340057,
-    latitude: 39.905597
+    latitude: 39.905597,
   },
   {
     id: "bj036",
@@ -705,19 +466,11 @@ module.exports = [
     name: "航天中心医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.251459,
-    latitude: 39.916366
+    latitude: 39.916366,
   },
   {
     id: "bj037",
@@ -725,19 +478,11 @@ module.exports = [
     name: "北京燕化医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 115.951587,
-    latitude: 39.727309
+    latitude: 39.727309,
   },
   {
     id: "bj038",
@@ -745,19 +490,11 @@ module.exports = [
     name: "北京市第二医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等综合医院",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.376613,
-    latitude: 39.902367
+    latitude: 39.902367,
   },
   {
     id: "bj039",
@@ -765,19 +502,11 @@ module.exports = [
     name: "北京大学国际医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.263800,
-    latitude: 40.100675
+    latitude: 40.100675,
   },
   {
     id: "bj040",
@@ -785,19 +514,11 @@ module.exports = [
     name: "北京佑安医院", // 简称，名称
     fullName: "首都医科大学附属北京佑安医院", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.355417,
-    latitude: 39.866412
+    latitude: 39.866412,
   },
   {
     id: "bj041",
@@ -805,19 +526,11 @@ module.exports = [
     name: "北京博爱医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.378256,
-    latitude: 39.849304
+    latitude: 39.849304,
   },
   {
     id: "bj042",
@@ -825,19 +538,11 @@ module.exports = [
     name: "北京丰台医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.295133,
-    latitude: 39.842635
+    latitude: 39.842635,
   },
   {
     id: "bj043",
@@ -845,19 +550,11 @@ module.exports = [
     name: "北京航天总医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.419450,
-    latitude: 39.804528
+    latitude: 39.804528,
   },
   {
     id: "bj044",
@@ -865,19 +562,11 @@ module.exports = [
     name: "应急管理部应急总医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.436820,
-    latitude: 39.960250
+    latitude: 39.960250,
   },
   {
     id: "bj045",
@@ -885,19 +574,11 @@ module.exports = [
     name: "北京老年医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "",
     gradeName: "三级合格",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.164704,
-    latitude: 40.048384
+    latitude: 40.048384,
   },
   {
     id: "bj046",
@@ -905,19 +586,11 @@ module.exports = [
     name: "北京市第六医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.413036,
-    latitude: 39.942289
+    latitude: 39.942289,
   },
   {
     id: "bj047",
@@ -925,19 +598,11 @@ module.exports = [
     name: "北京市普仁医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.420292,
-    latitude: 39.894891
+    latitude: 39.894891,
   },
   {
     id: "bj048",
@@ -945,19 +610,11 @@ module.exports = [
     name: "北京市仁和医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "B",
     class: "A",
     gradeName: "二级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.338254,
-    latitude: 39.742019
+    latitude: 39.742019,
   },
   {
     id: "bj049",
@@ -965,18 +622,10 @@ module.exports = [
     name: "北京医院", // 简称，名称
     fullName: "", // 全称
     originalName: '', // 原名
-    subName: "",
-    keywords: "",
-    type: "",
     grade: "A",
     class: "A",
     gradeName: "三级甲等",
-    province: "北京市",
-    city: "北京市",
-    county: "",
-    address: "",
-    description: "",
     longitude: 116.414996,
-    latitude: 39.903990
+    latitude: 39.903990,
   },
 ]

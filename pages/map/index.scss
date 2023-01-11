@@ -50,6 +50,18 @@
       font-size: 24rpx;
       color: #ccc;
     }
+    .hospital-tag {
+      display: flex;
+      margin-top: 6rpx;
+      view {
+        padding: 4rpx 6rpx;
+        background: #ebf3ff;
+        border-radius: 4rpx;
+        color: #0260ff;
+        font-size: 20rpx;
+        margin-right: 10rpx;
+      }
+    }
 
     .hospital-right {
 

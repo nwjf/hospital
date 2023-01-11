@@ -6,7 +6,11 @@
     </view>
     <view class="item-right">
       <view class="item-name">{{item.fullName || item.name}}</view>
-      <view class="item-msg">北京医保定点医院</view>
+      <view class="item-tag">
+        <view>医保定点</view>
+        <view>{{item.gradeName}}</view>
+      </view>
+      <!-- <view class="item-msg">北京医保定点医院</view> -->
     </view>
   </view>
 </view>

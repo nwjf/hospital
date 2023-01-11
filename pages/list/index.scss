@@ -29,6 +29,18 @@ page {
       .item-name {
         font-size: 28rpx;
       }
+      .item-tag {
+        display: flex;
+        margin-top: 6rpx;
+        view {
+          padding: 4rpx 6rpx;
+          background: #ebf3ff;
+          border-radius: 4rpx;
+          color: #0260ff;
+          font-size: 20rpx;
+          margin-right: 10rpx;
+        }
+      }
       .item-msg {
         font-size: 24rpx;
         margin-top: 10rpx;
