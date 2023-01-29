@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "寻医问院"
+  "navigationBarTitleText": "寻医问院",
+  "usingComponents": {
+    "open-map": "../../components/openMap"
+  }
 }

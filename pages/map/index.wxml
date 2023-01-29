@@ -29,9 +29,12 @@
           <!-- <view class="hospital-msg">北京医保定点三级医院</view> -->
           <!-- <view class="hospital-msg">{{hospitalInfo.gradeName}}</view> -->
         </view>
-        <!-- <view class="hospital-right">
-          <button open-type="launchApp"></button>
-        </view> -->
+        <view class="hospital-right">
+          <open-map
+            latitude="{{hospitalInfo.latitude}}"
+            longitude="{{hospitalInfo.longitude}}"
+            name="{{hospitalInfo.fullName || hospitalInfo.name}}"/>
+        </view>
       </view>
       <view class="hospital-desc"></view>
     </view>

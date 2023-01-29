@@ -23,7 +23,7 @@ page {
         height: 100%;
       }
     }
-    .item-right {
+    .item-content {
       width: calc(100% - 100rpx - 20rpx);
       margin-left: 20rpx;
       .item-name {
@@ -46,6 +46,11 @@ page {
         margin-top: 10rpx;
         color: #999;
       }
+    }
+    .item-right {
+      width: 60rpx;
+      height: 60rpx;
+      margin-right: 20rpx;
     }
   }
 }

@@ -1,0 +1,5 @@
+<view class="open-map-component-warp" bindtap="openLocation">
+  <!-- <button open-type="launchApp" binderror="launchAppError" app-parameter=""> -->
+    <image src="./assets/icon-navigation.png" mode="widthFix"></image>
+  <!-- </button> -->
+</view>
