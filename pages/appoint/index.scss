@@ -1,0 +1,88 @@
+page {
+  background-color: #eee;
+}
+
+.appoint-warp {
+  padding-top: 20rpx;
+  padding-top: 100rpx;
+
+  .appoint-search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100rpx;
+    background: #fff;
+    z-index: 9;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    padding: 20rpx;
+    input {
+      width: 100%;
+      height: 60rpx;
+      border-radius: 40rpx;
+      border: 1px solid #0260ff;
+      padding: 0 40rpx;
+      font-size: 32rpx;
+    }
+  }
+
+  .list-item {
+    background: #fff;
+    width: 100%;
+    height: 120rpx;
+    margin-bottom: 2rpx;
+    padding: 10rpx;
+    display: flex;
+    align-items: center;
+
+    .item-pic {
+      width: 100rpx;
+      height: 100rpx;
+      border-radius: 50%;
+      overflow: hidden;
+
+      image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .item-content {
+      // width: calc(100% - 100rpx - 20rpx);
+      // margin-left: 20rpx;
+      width: 100%;
+
+      .item-name {
+        font-size: 28rpx;
+      }
+
+      .item-tag {
+        display: flex;
+        margin-top: 6rpx;
+
+        view {
+          padding: 4rpx 6rpx;
+          background: #ebf3ff;
+          border-radius: 4rpx;
+          color: #0260ff;
+          font-size: 20rpx;
+          margin-right: 10rpx;
+        }
+      }
+
+      .item-msg {
+        font-size: 24rpx;
+        margin-top: 10rpx;
+        color: #999;
+      }
+    }
+
+    .item-right {
+      width: 60rpx;
+      height: 60rpx;
+      margin-right: 20rpx;
+    }
+  }
+}

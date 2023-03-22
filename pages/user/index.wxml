@@ -7,12 +7,17 @@
   </view>
 
   <view class="user-item border mt" bindtap="clickItem" data-page="map">
-    <view class="user-item-left">地图查看医院</view>
+    <view class="user-item-left">地图查看A类医院</view>
     <view class="user-item-right"></view>
   </view>
 
   <view class="user-item border" bindtap="clickItem" data-page="list">
-    <view class="user-item-left">医院列表</view>
+    <view class="user-item-left">A类医院列表</view>
+    <view class="user-item-right"></view>
+  </view>
+
+  <view class="user-item border" bindtap="clickItem" data-page="appoint">
+    <view class="user-item-left">北京定点医保机构</view>
     <view class="user-item-right"></view>
   </view>
 
@@ -21,7 +26,7 @@
     <view class="user-item-right"></view>
   </view> -->
 
-  <view class="user-item border" bindtap="clickItem" data-page="updateLogs">
+  <view class="user-item border mt" bindtap="clickItem" data-page="updateLogs">
     <view class="user-item-left">更新记录</view>
     <view class="user-item-right"></view>
   </view>

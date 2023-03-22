@@ -4,7 +4,8 @@
     "pages/user/index",
     "pages/map/index",
     "pages/list/index",
-    "pages/updateLogs/index"
+    "pages/updateLogs/index",
+    "pages/appoint/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
