@@ -4,9 +4,7 @@
   </view>
 
   <view class="list-item" wx:for="{{list}}" key="{{index}}">
-    <!-- <view class="item-pic">
-      <image src="{{item.icon || 'https://img.rednet.cn/2020/05-12/afd05e5e-806b-4ee2-8fba-264f39211dd3.jpg'}}"></image>
-    </view> -->
+
     <view class="item-content">
       <view class="item-name text-overflow">{{item[1]}}</view>
       <view class="item-tag">
@@ -16,8 +14,5 @@
       </view>
     </view>
 
-    <!-- <view class="item-right">
-      <open-map latitude="{{item.latitude}}" longitude="{{item.longitude}}" name="{{item.fullName || item.name}}" />
-    </view> -->
   </view>
 </view>
