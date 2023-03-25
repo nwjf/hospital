@@ -1,6 +1,10 @@
 <view class="appoint-warp">
   <view class="appoint-search">
     <input placeholder="搜索医院" bindinput="search"/>
+
+    <view class="appoint-flutter" bindtap="onFlutterBtn" data-type="show">
+      <image mode="widthFix" src="../../assets/flutter.png"></image>
+    </view>
   </view>
 
   <view class="list-item" wx:for="{{list}}" key="{{index}}">
@@ -14,5 +18,46 @@
       </view>
     </view>
 
+  </view>
+
+
+  <view
+    class="flutter-box"
+    style="width: {{showFlutter ? '100vw' : '0vw'}}"
+    catchtap="onFlutterBtn"
+    data-type="hidden">
+    <view
+      catchtap="onFlutterBtn"
+      data-type="show"
+      class="flutter-main"
+      >
+      <view class="flutter-item">
+        <view class="flutter-item-title">机构等级</view>
+        <view class="flutter-item-list">
+          <view
+            wx:for="{{gradeList}}"
+            catchtap="onFluterSlect"
+            data-id="{{item.id}}"
+            data-type="grade"
+            class="flutter-item-tag {{item.id === searchData.grade && 'active'}}">
+            {{item.name}}
+          </view>
+        </view>
+      </view>
+
+      <view class="flutter-item">
+        <view class="flutter-item-title">机构分类</view>
+        <view class="flutter-item-list">
+          <view
+            wx:for="{{typeList}}"
+            catchtap="onFluterSlect"
+            data-id="{{item.id}}"
+            data-type="type"
+            class="flutter-item-tag {{item.id === searchData.type && 'active'}}">
+            {{item.name}}
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

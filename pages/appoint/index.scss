@@ -26,6 +26,18 @@ page {
       padding: 0 40rpx;
       font-size: 32rpx;
     }
+
+    .appoint-flutter {
+      height: 100%;
+      width: 40rpx;
+      display: flex;
+      align-items: center;
+      font-size: 24rpx;
+      margin-left: 20rpx;
+      image {
+        width: 40rpx;
+      }
+    }
   }
 
   .list-item {
@@ -83,6 +95,60 @@ page {
       width: 60rpx;
       height: 60rpx;
       margin-right: 20rpx;
+    }
+  }
+}
+
+.flutter-box {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  transition: all .24s linear;
+  overflow: hidden;
+  .flutter-main {
+    width: 600rpx;
+    height: 100%;
+    background: #eee;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 20rpx;
+    .flutter-item {
+      width: 100%;
+      min-height: 100rpx;
+      background: #fff;
+      border-radius: 20rpx;
+      padding: 30rpx;
+      margin-bottom: 30rpx;
+      .flutter-item-title {
+        font-size: 28rpx;
+        font-weight: 700;
+      }
+      .flutter-item-list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .flutter-item-tag {
+        height: 48rpx;
+        width: calc((100% - 30rpx) / 3);
+        background: #eee;
+        text-align: center;
+        font-size: 24rpx;
+        line-height: 48rpx;
+        border-radius: 24rpx;
+        border: 1px solid #eee;
+        margin-top: 20rpx;
+        margin-right: 10rpx;
+        &.active {
+          background: #f4f8ff;
+          color: #0260ff;
+          border-color: #0260ff;
+        }
+      }
     }
   }
 }

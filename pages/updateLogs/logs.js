@@ -1,4 +1,5 @@
 module.exports = [
+  { version: 'v1.3.1', date: '2023-03-25', content: '1. 增加a类医院列表搜索\n2. 增加定点机构列表筛选' },
   { version: 'v1.3.0', date: '2023-03-22', content: '1. 增加北京定点医疗机构页面' },
   { version: 'v1.2.0', date: '2023-01-29', content: '1. 增加导航（打开app）功能' },
   { version: 'v1.1.2', date: '2023-01-11', content: '1. 展示医院等级' },
