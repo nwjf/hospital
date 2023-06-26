@@ -1,0 +1,34 @@
+<view class="department-warp">
+
+  <view class="department-search">
+    <picker
+      bindchange="bindPickerChange"
+      value="{{selectActiveIndex}}"
+      range="{{ranking}}"
+      range-key="department">
+      <view class="picker">
+        下拉选择科室：{{ranking[selectActiveIndex].department}}
+      </view>
+    </picker>
+  </view>
+
+
+  <view class="list">
+    <view class="list-item">
+      <view>排名</view>
+      <view>医院名称</view>
+      <view>声誉</view>
+    </view>
+
+    <view class="list-item" wx:for="{{list}}" key="{{index}}">
+      <view>{{item.index}}</view>
+      <view class="text-overflow">{{item.name}}</view>
+      <view>{{item.reputation}}</view>
+    </view>
+  </view>
+
+  <view class="tm">
+    <view class="tm-t">提名医院</view>
+    <view class="tm-l" wx:for="{{nominate}}" key="{{index}}">{{item}}</view>
+  </view>
+</view>

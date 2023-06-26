@@ -5,7 +5,8 @@
     "pages/map/index",
     "pages/list/index",
     "pages/updateLogs/index",
-    "pages/appoint/index"
+    "pages/appoint/index",
+    "pages/departmentRanking/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

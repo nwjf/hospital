@@ -21,6 +21,11 @@
     <view class="user-item-right"></view>
   </view>
 
+  <view class="user-item border" bindtap="clickItem" data-page="departmentRanking">
+    <view class="user-item-left">科室排名（2021复旦版）</view>
+    <view class="user-item-right"></view>
+  </view>
+
   <!-- <view class="user-item border mt" bindtap="clickItem" data-page="agreement">
     <view class="user-item-left">协议</view>
     <view class="user-item-right"></view>
