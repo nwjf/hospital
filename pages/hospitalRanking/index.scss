@@ -1,0 +1,40 @@
+page {
+  background-color: #eee;
+}
+
+.department-warp {
+  padding-bottom: 60rpx;
+
+
+  .list {
+    margin-top: 20rpx;
+
+    .list-item {
+      height: 120rpx;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rpx;
+      line-height: 120rpx;
+      background: #fff;
+
+      &>view {
+        width: 33.33%;
+        padding: 0 10rpx;
+
+        &:nth-child(1) {
+          width: 13%;
+          text-align: center;
+        }
+
+        &:nth-child(2) {
+          width: 87%;
+        }
+
+        &:nth-child(3) {
+          width: 0%;
+        }
+      }
+    }
+  }
+
+}

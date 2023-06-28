@@ -1,0 +1,16 @@
+<view class="department-warp">
+
+  <view class="list">
+    <view class="list-item">
+      <view>排名</view>
+      <view>医院名称</view>
+      <!-- <view>总分</view> -->
+    </view>
+
+    <view class="list-item" wx:for="{{ranking}}" key="{{index}}">
+      <view>{{item.index}}</view>
+      <view class="text-overflow">{{item.name}}</view>
+      <!-- <view>{{item.score}}</view> -->
+    </view>
+  </view>
+</view>

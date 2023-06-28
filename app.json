@@ -6,7 +6,8 @@
     "pages/list/index",
     "pages/updateLogs/index",
     "pages/appoint/index",
-    "pages/departmentRanking/index"
+    "pages/departmentRanking/index",
+    "pages/hospitalRanking/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

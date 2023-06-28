@@ -1,4 +1,5 @@
 module.exports = [
+  { version: 'v1.5.0', date: '2023-06-27', content: '1. 增加全国医院排名（21复旦版）' },
   { version: 'v1.4.0', date: '2023-06-26', content: '1. 增加全国科室排名（21复旦版）' },
   { version: 'v1.3.1', date: '2023-03-25', content: '1. 增加a类医院列表搜索\n2. 增加定点机构列表筛选' },
   { version: 'v1.3.0', date: '2023-03-22', content: '1. 增加北京定点医疗机构页面' },
